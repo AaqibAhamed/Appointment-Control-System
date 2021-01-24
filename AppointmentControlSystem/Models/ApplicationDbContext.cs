@@ -14,5 +14,8 @@ namespace AppointmentControlSystem.Models
         }
 
         public DbSet<Appointment> Appointment { get; set; }
+        
+        //Not Added to Migration -Because User Control not completed
+       // public DbSet<User> User { get; set; }
     }
 }
