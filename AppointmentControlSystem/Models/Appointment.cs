@@ -20,8 +20,6 @@ namespace AppointmentControlSystem.Models
         [Required]
         public DateTime EndTime { get; set; }
 
-       // public bool Status { get; set; }
-
         public string Priority { get; set; }
 
 
